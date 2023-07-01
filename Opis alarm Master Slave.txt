@@ -1,0 +1,23 @@
+Opis dotyczy dwóch niezale¿nych urz¹dzeñ alarmowych wspó³pracuj¹cych ze sob¹, w zwi¹zku z tym dwóch programów. 
+
+1 Slave
+
+G³ówny alarm, który monitoruje ca³e mieszkanie. Po pierwsze zbiera on informacje od wszystkich czujek PIR i kontaktronów w mieszkaniu. W przypadku odpowiedniego sygna³u z tych czujek albo od razu wysy³a alarm sms do mnie na komórkê, albo daje czas na wpisanie odpowiedniego kodu na klawiaturze przy wejœciu do mieszkania. 
+
+W ka¿dej chwili jestem w stanie sprawdziæ, czy alarm czuwa i monitoruje mieszkania, poprzez wys³anie do niego zapytania. Alarm odpowiada odpowiednim sms-em.
+
+Jest ona powi¹zany z alarmem Master, dziêki czemu w przypadku nieprawid³owego dzia³ania alarmu Master, jest on w stanie go wy³¹czyæ i w³¹czyæ ponownie. Wszystko dzieje siê poprzez wys³anie do niego odpowiednich sms-ów. 
+
+2 Master
+
+Jest to drugi alarm, zbudowany na zupe³nie niezale¿nej p³ytce. Jego g³ownym zadaniem jest chroniæ najbardziej newralgiczn¹ czêœæ mieszkania, monitoruj¹c odpowiedni¹ czujkê kontaktron, niezale¿n¹ od czujki alarmu Slave. 
+
+Tak samo jak Slave wysy³a on odpowiedzi sms na moje zapytania, maj¹ce na celu stwierdziæ, czy alarm dzia³a. Ma on równie¿ mo¿liwoœæ zresetowania alarmu Slave, czyli jego wy³¹czenia i w³¹czenia, w przypadku jakiegoœ problemu z dzia³aniem. 
+
+Wspó³pracuj¹ce dwa systemy alarmowe maj¹ swoje plusy.
+
+1. Dzia³aj¹ niezale¿nie od siebie co w przypadku w³amania spowoduje wys³anie sygna³u z dwóch alarmów na moj¹ komórkê i 100 % pewnoœci, ¿e ktoœ jest w mieszkaniu. 
+
+2. Pozwalaj¹ zresetowaæ lub wy³¹czyæ ten alarm, który szwankuje np. jeœli uszkodzeniu ulegnie czujka PIR i wysy³a non stop fa³szywy sygna³ o ruchu. 
+
+3. W przypadku awarii jednego z alermów, dzia³a drugi. Jeszcze nie zdarzy³o mi siê, by zawiod³y dwa w tym samym czasie. 
